@@ -9,13 +9,13 @@ exclude:
 # Site settings
 title: Eye Division
 subtitle: Web development in Bath and Oxford
-name: Alun Ward
-description: Test web site for Eye Division Ltd
+name: Eye Division
+description: Web site for Eye Division Ltd
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://www.eyedivision.com" # the base hostname & protocol for your site
+url: "http://eager-banana.cloudvent.net/" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 email: info@eyedivision.com
@@ -31,7 +31,7 @@ permalink: pretty
 # Image CDN
 imagecdn:
   #staging: "http://ed-dev.imgix.net"
-  #production: "http://ed.imgix.net"
+  production: "http://ed-eyedivision.imgix.net"
 
 
 # Collections
@@ -58,7 +58,7 @@ defaults:
 ga_tracking_id: UA-964773-1
 
 #Google Recaptcha for contact form
-recaptcha_site_key:
+recaptcha_site_key: 6LdQIxUUAAAAAJAiUwXz-IFIZldyn-TEB0dLU0h6
 
 # Social icons and sharing options
 #
@@ -95,8 +95,8 @@ social:
 
   - name: LinkedIn
     icon: linkedin
-    username:
-    url:
+    username: eyedivision
+    url: https://www.linkedin.com/company/eye-division-ltd
     desc: Connect with us on LinkedIn
     share: true
 
