@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Alun Ward - Design and Content - @lunaEye
+  Neil C Smith - Content - @neilcsmith_net
+
+# THANKS
+
+  Neil C Smith
+  Henrik Ibsen
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3, SASS, Bootstrap SASS, Grayscale Theme

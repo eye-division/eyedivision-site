@@ -4,13 +4,22 @@ title: About
 permalink: /about/
 ---
 
-<img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
+<section class="container content-section">
+  <article>
+    <h3>Alun Ward</h3>
+    <figure class="hvr-underline-from-center">
+      <img src="{{ site.baseurl }}/assets/alunward.jpg" alt="Photograph of Alun Ward" class="">
+     </figure>
+     <p>Alun founded Eye Division in 2005 after ten years in the industry. He still maintains the site of his very first customer twenty years on, and with Eye Division has now developed over 120 websites. In addition to design and project management work on Eye Division projects, he is an <a href="https://www.alunward.co.uk">exhibiting artist</a> with over 30 exhibitions and shows to date.</p>
+  </article>
 
-Neat Whiskey is a base theme and configuration for [Jekyll](http://jekyllrb.com/), based on Bourbon and Neat. It is a fork of the [Centratrium][centrarium] custom theme by [Ben Centra][bencentra].
+  <article>
+     <h3>Neil C Smith</h3>
+     <figure class="hvr-underline-from-center">
+      <img src="{{ site.baseurl }}/assets/neilcsmith.jpg" alt="Photograph of Neil C Smith">
+      </figure>
+      <p>Neil has worked for Eye Division since 2008, and became a director in 2014. An experienced programmer, Neil has a background in the arts and voluntary sector, leading on arts strategy at Oxford City Council, before pursuing his interests in technology. Away from Eye Division he makes interactive projections with Digital Prisoners, and develops audio-visual software <a href="http://www.praxislive.org/">Praxis LIVE</a>.</p>
+    </article>
 
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
-
-[centrarium]: https://github.com/bencentra/centrarium
-[bencentra]: http://bencentra.com
+  </section>

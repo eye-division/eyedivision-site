@@ -1,0 +1,13 @@
+---
+layout: page
+---
+{% if page.logo %}
+  <p><a href="{{ page.site }}"><img src="{{ page.logo }}" alt="{{ page.description }} logo"></a><br>
+{% endif %}
+<a href="{{ page.site }}">{{ page.site }}</a></p>
+{% if page.screenshot %}
+  <figure>
+    <img class="img-responsive" src="{{ page.screenshot }}" alt="{{ page.description }} screenshot">
+  </figure>
+{% endif %}
+<p><em>{{ page.project_date | date: '%B %Y' }}</em></p>

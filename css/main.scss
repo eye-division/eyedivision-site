@@ -5,9 +5,21 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 // Includes Bourbon, Neat, and Bitters (thanks, thoughtbot!)
+/* // Old Bootstrap style
+@import
+  "bootstrap",
+  "fontawesome/font-awesome",
+  "hover/hover",
+  "app/_variables",
+  "app/_eyedivision"
+;
+*/
+
 @import
   "bourbon/bourbon",
   "base/base",
   "neat/neat",
+  "hover/hover",
   "layout"
 ;
+

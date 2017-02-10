@@ -1,0 +1,47 @@
+.clients-list {
+
+  @extend %default-ul;
+
+  @include clearfix;
+  align-items: stretch;
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  li {
+    text-align: center;
+    line-height: 1.2em;
+    //padding-top: 50px;
+    align-self: stretch;
+    background: $lightgrey;
+    //border-radius: $base-border-radius;
+    //box-shadow: inset 0 0 1px lighten($brand-primary, 30%), 0 1px 2px $brand-primary;
+    display: block;
+    flex: 2 2 15em;
+    margin: 0.4em;
+    padding: 2em 2em 2em 2em;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+h3 {
+  line-height: 1.2em;
+  font-size: modular-scale(1);
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+  color: $black;
+  &:hover, &:focus {
+    text-decoration: none;
+    color: $red;
+  }
+}
+.project-date {
+
+}
+.project-description {
+
+}
