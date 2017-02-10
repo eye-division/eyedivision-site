@@ -1,0 +1,109 @@
+/*
+*   Navigation
+*/
+.navigation {
+    box-shadow: 0 1px $light-gray;
+    padding: 0 1em;
+    height: $navigation-height-large;
+    margin: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    background-color: $white;
+    @include media ($large-screen) {
+        height: $navigation-height;
+    }
+    /*
+    *	Navigation Menu - http://refills.bourbon.io/unstyled/ (see "Navigation")
+    */
+    // Mobile view
+    /*
+     .navigation-menu-button {
+        display: block;
+        float: right;
+        margin: 0;
+        font-size: 1.5em;
+        padding-top: 0.5em;
+        @include media ($large-screen) {
+            display: none;
+        }
+    }
+    */
+
+    // Nav menu
+    .navigation-wrapper {
+        @include outer-container;
+        @include clearfix;
+        position: relative;
+    }
+    .logo {
+        @include media ($large-screen) {
+            float: left;
+            padding-left: $em-base;
+        }
+        img {
+            max-height: 4.5em;
+            margin-top: 0.75em;
+            padding-right: 1em;
+        }
+        span {
+            font-size: 1.25em;
+        }
+    }
+    nav {
+        float: none;
+        padding: 0;
+        @include media ($large-screen) {
+            padding-top: 2.6em;
+            float: right;
+            line-height: 1.5em;
+        }
+    }
+    ul.navigation-menu {
+        margin: 0 auto;
+        overflow: visible;
+        padding: 0;
+        width: 100%;
+        @include media ($large-screen) {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+        &.show {
+            display: block;
+        }
+    }
+}
+
+/*
+ * Nav menu items
+ */
+
+.nav-link {
+    display: inline-block;
+    padding: 0.25em 0.75em;
+    @include media ($large-screen) {
+        background: transparent;
+        text-decoration: none;
+        width: auto;
+    }
+    a {
+        color: $black;
+        display: inline-block;
+    }
+    &:last-child a {
+        @include media ($large-screen) {
+            padding-right: 1em;
+        }
+    }
+
+}
+.nav-link.active {
+    a {
+        color: $brand-primary;
+    }
+}
+
+.social {
+    padding: 0.25em;
+}
