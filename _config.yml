@@ -94,17 +94,17 @@ social:
     share: true
 
   - name: LinkedIn
-    icon: icon-linkedin
-    username: eyedivision
-    url: https://www.linkedin.com/company/eye-division-ltd
+    icon: icon-linkedin-alt
+    username: #eyedivision
+    url: #https://www.linkedin.com/company/eye-division-ltd
     desc: Connect with us on LinkedIn
     share: true
 
 
   - name: Instagram
     icon: icon-instagram
-    username: eyedivision
-    url: https://instagram.com/eyedivision
+    username: #eyedivision
+    url: #https://instagram.com/eyedivision
     desc: Follow me on Instagram
     share: false
 

@@ -2,6 +2,7 @@
 *   Navigation
 */
 .navigation {
+    text-align: center;
     box-shadow: 0 1px $light-gray;
     padding: 0 1em;
     height: $navigation-height-large;
@@ -10,6 +11,9 @@
     position: fixed;
     width: 100%;
     background-color: $white;
+    @include media ($medium-screen) {
+        text-align: left;
+    }
     @include media ($large-screen) {
         height: $navigation-height;
     }
@@ -81,8 +85,9 @@
 
 .nav-link {
     display: inline-block;
-    padding: 0.25em 0.75em;
+    padding: 0.25em 0.5em;
     @include media ($large-screen) {
+        padding: 0.25em 0.75em;
         background: transparent;
         text-decoration: none;
         width: auto;

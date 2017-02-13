@@ -10,9 +10,6 @@
   <meta name="copyright" content="&copy; {{ site.name }} {{ site.time | date: '%Y' }}">
   {% endif %}
 
-  <!-- External libraries -->
- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 
   <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
   <link rel="shortcut icon" href="{{ "/assets/icons/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
@@ -82,7 +79,7 @@
   ga('create', '{{ site.ga_tracking_id }}', 'auto');
   ga('send', 'pageview', {
     'page': '{{ page.url }}',
-    'title': '{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}'
+    'title': "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"
   });
 </script>
 {% endif %}

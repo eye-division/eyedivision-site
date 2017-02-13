@@ -27,7 +27,7 @@ body {
     //@include flex(0 0 auto);
     @include flex(none);
 }
-main {
+.page-content {
     display: block;
     @include flex(1 0 auto);
 }
@@ -35,7 +35,7 @@ h1, h2, h3 {
     text-align: center;
 }
 h1 {
-    padding: 0;
+    //padding: 0;
 }
 /*
 
@@ -45,7 +45,9 @@ h1 {
     overflow-y: auto;
 }
 */
-
+.centered {
+    text-align: center;
+}
 ol.default {
     @extend %default-ol;
 }
@@ -53,7 +55,9 @@ ol.default {
 ul.default {
     @extend %default-ul;
 }
-
+.image__bordered {
+    border: 1px solid $light-gray;
+}
 code {
     background-color: #eee;
     display: inline-block;
@@ -67,13 +71,13 @@ pre code.hljs {
 
 /* SVG icons */
 .icon {
-    fill: #2eb6cd;
+    fill: $action-color;
     display: inline-block;
     width: 30px;
     height: 30px;
 }
 a:hover .icon { /* hover colour */
-    fill: #2eb6cd;
+    fill: $eyedivision-dark;
 }
 .icon--readmore {
     fill: $black;
@@ -138,9 +142,14 @@ a:hover .icon { /* hover colour */
 /*
 *	Body
 */
+.page-content {
+    @include outer-container($page-width);
+
+}
 .page {
+
     @include outer-container(100%);
-    padding: $navigation-height-large 1em 1em;
+    padding: $navigation-height-large 0 1em;
     @include media ($large-screen) {
         padding: $navigation-height 1em 1em;
     }
@@ -166,41 +175,36 @@ a:hover .icon { /* hover colour */
     }
 }
 
+article {
+    padding: 0 1em;
+}
 /*
  * About page
 */
-.about {
-    .page {
-        @include outer-container;
-    }
-    .post-content {
-        @include span-columns(12);
-    }
-    section {
-        @include outer-container;
-    }
-    article {
-        @include span-columns(12);
-        @include media ($medium-screen) {
-            @include span-columns(6);
-        }
-    }
 
+.half {
+    @include span-columns(12);
+    @include media ($medium-screen) {
+        @include span-columns(6);
+    }
 }
-
 
 /*
 * Contact page
 */
 .contact {
     text-align: center;
-    .page {
-        @include outer-container;
-    }
+    //.page {
+        //@include outer-container;
+    //}
 }
 /*
 *	Footer
 */
+.footer__centered {
+    text-align: center;
+}
+
 .site-footer {
     text-align: center;
     @include outer-container;

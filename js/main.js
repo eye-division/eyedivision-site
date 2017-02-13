@@ -6,12 +6,6 @@
     //hljs.initHighlightingOnLoad();
 
 
-    // Lightbox2 options
-    lightbox.option({
-      'wrapAround': true
-    });
-
-
   });
 
 })(jQuery); // End of use strict
