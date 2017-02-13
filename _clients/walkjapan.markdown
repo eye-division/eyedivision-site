@@ -9,7 +9,7 @@ testimonial_markdown: Alun and Neil have been a key team in developing, managing
 testimonial_cite: Yohei Totsuka, Walk Japan
 ---
 
-(Walk Japan)[http://www.walkjapan.com] operates highly popular tours to the **Nakasendo Way**. We redesigned and rebuilt the site to take you on a virtual journey along the historical 500 kilometer route between Kyoto and Tokyo.  
+[Walk Japan](http://www.walkjapan.com) operates highly popular tours to the **Nakasendo Way**. We redesigned and rebuilt the site to take you on a virtual journey along the historical 500 kilometer route between Kyoto and Tokyo.  
 
 <h4>Features include:</h4>
 <ul class="list-group">

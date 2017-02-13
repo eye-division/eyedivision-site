@@ -9,8 +9,8 @@ testimonial_markdown: Working with Eye Division has been a pleasure. They helped
 testimonial_cite: David Valler, Global Science Spaces
 ---
 
-**Global Science Spaces** is the website for a new international network examining the diversity of global science spaces as hybrid physical, political-ideological and cultural forms. We worked with designers <a href="http://www.carlinecreative.co.uk">Carline Creative</a> to brand the site, built it in WordPress, support the hosting and now provide ongoing support.  
-  
+**Global Science Spaces** is the website for a new international network examining the diversity of global science spaces as hybrid physical, political-ideological and cultural forms. We worked with designers [Carline Creative](http://www.carlinecreative.co.uk) to brand the site, built it in WordPress, support the hosting and now provide ongoing support.  
+
 <h4>Features include:</h4>
 <ul class="list-group">
 <li class="list-group-item">GSS staff can add events and blogs as required</li>

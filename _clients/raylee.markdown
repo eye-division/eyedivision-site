@@ -11,6 +11,6 @@ testimonial_cite:  Ray Lee
 
 **Ray Lee** is an award-winning sound artist and composer. He creates spinning, whirling, and pendulous sound installations and performances that explore "circles of ether", the invisible forces that surround us.  
 
-We built the site in (Jekyll)[https://jekyllrb.com/], and opened up a simple editing system for Ray so he can continue to update his site on his own time.
+We built the site in [Jekyll](https://jekyllrb.com/), and opened up a simple editing system for Ray so he can continue to update his site on his own time.
 
 
