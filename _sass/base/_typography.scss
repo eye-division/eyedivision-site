@@ -26,6 +26,7 @@ h1 {
 h2 {
   font-weight: 200;
 	font-size: modular-scale(3);
+  line-height: 1.2;
 }
 h3 {
   font-weight: 200;
@@ -46,14 +47,14 @@ p {
 }
 
 a {
-  color: $action-color;
+  color: lighten($action-color,10%);
   text-decoration: none;
   // transition: color 0.1s linear;
 
   &:active,
   &:focus,
   &:hover {
-    color: darken($action-color, 10%);
+    color: $action-color;
     text-decoration: underline;
   }
 

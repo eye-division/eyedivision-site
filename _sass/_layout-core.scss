@@ -37,6 +37,13 @@ h1, h2, h3 {
 h1 {
     //padding: 0;
 }
+.larger {
+    font-size: larger;
+}
+.hero__strapline {
+    font-size: 1.5em;
+    font-size: 1.5rem;
+}
 /*
 
 .site-content {
@@ -112,7 +119,8 @@ a:hover .icon { /* hover colour */
     text-align: center;
     &.has-cover {
         color: $white;
-        text-shadow: 0 2px 1px rgba(0,0,0,0.67) !important;
+        text-shadow: 1px 1px 1px $black;
+        //text-shadow: 0 2px 1px rgba(0,0,0,0.67) !important;
         background-position: 50% 50%;
         background-size: cover;
         .title {
@@ -125,19 +133,23 @@ a:hover .icon { /* hover colour */
     .scrim {
         padding: 3em 1em;
         &.has-cover {
-            background-color: rgba(0,0,0,0.2);
-            padding: 6em 1em !important;
+            //background-color: rgba(0,0,0,0.2);
+            padding: 6em 1em 1em !important;
             @include media($large-screen) {
-                padding: 9em 1em !important;
+                padding: 10em 1em 10em !important;
             }
         }
     }
+
 }
 
 /*
 *	Header
 */
-
+.post-header {
+    padding-top: 1em;
+    padding-top: 1rem;
+}
 
 /*
 *	Body
@@ -172,6 +184,8 @@ a:hover .icon { /* hover colour */
         max-width: 320px;
         margin: auto;
         padding-bottom: 0.5em;
+        text-align: center;
+        display: block;
     }
 }
 
@@ -259,4 +273,17 @@ article {
     a {
         text-decoration: underline;
     }
+}
+
+.readmore {
+    @extend button;
+    color: $white;
+    @include bbb-flat-style($medium-gray, $white);
+    &:hover:not(:disabled) {
+        color: $white;
+        background: darken($medium-gray, 10%);
+        @include transition (background 0.2s ease-in-out);
+        text-decoration: none;
+  }
+
 }

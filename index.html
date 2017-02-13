@@ -8,9 +8,41 @@ main_image_description: Clevedon Pool
   <div class="scrim {% if page.main_image_path %}has-cover{% endif %}">
     <header class="site-header">
       <h2 class="title">Work with us and make the web work for you</h2>
-			<p>Eye Division have been creating online solutions since 2005 - from simple responsive websites to custom web applications; from social media integration to eCommerce &amp; interactive mapping; from cloud office advice to bespoke back-office tools.</p>
+			<p class="hero__strapline">Eye Division have been creating online solutions since 2005 - from simple responsive websites to custom web applications; from social media integration to eCommerce &amp; interactive mapping; from cloud office advice to bespoke back-office tools.</p>
     </header>
   </div>
 </div>
+
+{% assign clients = site.clients | sort: "project_date" | reverse %}
+
+{% if clients %}
+<section class="clients-front centered">
+
+  <h2>Recent work</h2>
+	<ul class="clients-list">
+  {% for client in clients limit:3 %}
+    <li class="client{% cycle '', ' last' %} hvr-radial-in">
+      <a href="{{ client.url | prepend: site.baseurl }}" title="{{ client.title }}" class="">
+
+        {% if client.logo %}
+         <figure>
+            {% include img.html src=client.logo width=200 %}
+          </figure>
+        {% endif %}
+				<h3>
+		      {{ client.title }}
+		    </h3>
+      </a>
+
+    </li>
+  {% endfor %}
+	</ul>
+
+ <footer>
+  <p><a href="{{ site.baseurl }}/clients/" class="readmore">View all . . . <svg class="icon icon--readmore"><use xlink:href="#icon-double_angle_right" /></svg></a></p>
+ </footer>
+
+</section>
+{% endif %}
 
 
