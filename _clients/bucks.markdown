@@ -9,7 +9,7 @@ testimonial_markdown:
 testimonial_cite: 
 ---
 
-Every summer in June artists and designer makers open their doors to the public in **>Bucks Open Studios**.   
+Every summer in June artists and designer makers open their doors to the public in **Bucks Open Studios**.   
 
 We re-built their website to allow staff and artists to manage their listings and images. We took the opportunity to integrate their new print design into the website, and make it responsive, highlighting some of the stunning images produced by the artists.  
 
