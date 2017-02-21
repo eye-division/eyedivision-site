@@ -31,7 +31,7 @@ permalink: pretty
 # Image CDN
 imagecdn:
   #staging: "http://ed-dev.imgix.net"
-  production: "http://ed-eyedivision.imgix.net"
+  production: "https://ed-eyedivision.imgix.net"
 
 
 # Collections
