@@ -15,7 +15,7 @@ description: Web site for Eye Division Ltd
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.eyedivision.com/" # the base hostname & protocol for your site
+url: "https://www.eyedivision.com/" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 email: info@eyedivision.com
@@ -113,10 +113,10 @@ social:
 # These are for automatically generating sharing metadata for FB and Twitter
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
 protocols:
-    fb_image: "/assets/logo.png"
-    fb_image_width: 612
-    fb_image_height: 605
-    fb_image_type: "image/png"
+    fb_image: "/assets/images/clevedon_pools.jpg"
+    fb_image_width: 2048
+    fb_image_height: 1156
+    fb_image_type: "image/jpg"
 
-    twitter_image: "/assets/logo.png"
+    twitter_image: "/assets/eyedivision-logo.png"
 
