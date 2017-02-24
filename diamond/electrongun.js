@@ -319,19 +319,6 @@ p.nominalBounds = new cjs.Rectangle(-1,-1,61.5,61.5);
 }).prototype = getMCSymbolPrototype(lib.topLeftWall, new cjs.Rectangle(-1,-1,133.2,68.7), null);
 
 
-(lib.q = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Layer 1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#818181").s().p("AhFDiIAAhJIBYAAIAABJgAhFBlIAAgIQAAgYAIgVQAIgVAcgeIAWgXQApgwAAgkQAAgagSgPQgSgPghAAQgsAAg6AbIAAhDQAbgJAQgDQARgDATgCQATgCASAAQBFAAApAcQApAbAAAuQAAAPgEAPQgFANgIANQgJAMgXAWIgUATQgZAWgKASQgLASAAAhIAAAZg");
-	this.shape.setTransform(13.4,22.6);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.q, new cjs.Rectangle(0,0,26.9,45.2), null);
-
-
 (lib.enclosure = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -875,60 +862,60 @@ p.nominalBounds = new cjs.Rectangle(0,0,168,24);
 
 	// title
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#666666").s().p("AAzBdIAAh1QAAgMgCgKQgEgJgFgGQgLgMgZAAQgIAAgJADQgIADgHAFQgGAFgEAGQgFAGgCAHQgEAJAAAIIgBASIAABgIgVAAIAAi0IAVAAIAAAZQANgNAOgIQAGgFAIgCQAIgCAIAAQARAAAPAGQAOAGAKAOQAHAKABAKIABAWIAAB1g");
-	this.shape.setTransform(399,43.6);
+	this.shape.graphics.f("#666666").s().p("AAzBdIAAh1QAAgMgDgKQgCgJgGgGQgLgMgZAAQgJAAgIADQgIADgHAFQgGAFgEAGQgFAGgCAHQgDAJgBAIIgBASIAABgIgVAAIAAi0IAVAAIAAAZQANgNAOgIQAGgFAIgCQAIgCAIAAQASAAAOAGQAOAGAKAOQAHAKABAKIABAWIAAB1g");
+	this.shape.setTransform(408.7,43.6);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#666666").s().p("AglBYQgMgFgHgJQgIgJgDgMQgEgMAAgPIAAh2IAVAAIAAB2QAAAXALANQALAMAZAAQALAAALgFQALgFAGgJQAIgJADgNQAEgMAAgPIAAhiIAVAAIAAC0IgVAAIAAgZIgJAKIgNAKQgHAEgIADQgKADgLAAQgSAAgMgFg");
-	this.shape_1.setTransform(379.5,44.1);
+	this.shape_1.graphics.f("#666666").s().p("AglBYQgMgFgIgJQgHgJgDgMQgEgMAAgPIAAh2IAVAAIAAB2QAAAXALANQALAMAZAAQALAAALgFQAKgFAIgJQAGgJAEgNQAEgMAAgPIAAhiIAVAAIAAC0IgVAAIAAgZIgKAKIgLAKQgIAEgIADQgKADgKAAQgTAAgMgFg");
+	this.shape_1.setTransform(389.3,44.1);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#666666").s().p("AgtB8QgUgIgPgRQgHgIgGgLQgGgKgEgMQgIgaAAghQAAgSAHghQAHgYAOgRQAPgTAWgJQAWgKAcAAQAUgBASAFQARAFAOAKQAOAKAJAPQAJAPAFAUIgZAAQgDgOgIgLQgHgLgKgIQgLgHgNgFQgNgDgOAAQgLgBgLADQgLACgJAFQgSAIgLAQQgMAQgFAWQgFAgAAAQQAAAVAGATQAGATAMAOIANANIAPAKQARAJAVAAQAKgBALgCQALgCAKgFQAKgGAJgIQAJgJAGgMQAGgMACgNIADgbIhVAAIAAgTIBrAAIAACBIgUAAIAAgrQgGALgJAKQgJAIgLAHQgLAGgPAEQgOADgSAAQgYABgUgJg");
-	this.shape_2.setTransform(355.7,40.3);
+	this.shape_2.setTransform(365.4,40.3);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#666666").s().p("AAzBdIAAh1QAAgMgDgKQgDgJgFgGQgLgMgZAAQgIAAgJADQgIADgGAFQgHAFgEAGQgFAGgCAHQgEAJAAAIIgBASIAABgIgVAAIAAi0IAVAAIAAAZQANgNANgIQAHgFAIgCQAIgCAJAAQAQAAAPAGQAOAGAKAOQAGAKACAKIABAWIAAB1g");
-	this.shape_3.setTransform(323.2,43.6);
+	this.shape_3.graphics.f("#666666").s().p("AAzBdIAAh1QAAgMgCgKQgDgJgGgGQgKgMgaAAQgIAAgJADQgIADgHAFQgGAFgEAGQgFAGgCAHQgDAJgBAIIgBASIAABgIgVAAIAAi0IAVAAIAAAZQANgNAOgIQAGgFAIgCQAIgCAIAAQARAAAPAGQAOAGAKAOQAGAKACAKIABAWIAAB1g");
+	this.shape_3.setTransform(332.9,43.6);
 
 	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#666666").s().p("AggBZQgPgGgLgMQgMgLgGgSQgFgMgCgeQAAgTAFgRQAGgSAKgNQALgMAPgIQAQgIAUAAIAUACQAJACAIAEQAPAIALAMQALANAEASQAGARAAATQAAAWgGARQgGASgLAMQgLANgQAHQgPAHgTAAQgRgBgPgGgAgchFQgLAGgIALQgHALgEAOQgDANAAAOQAAARAEAOQAEAOAIAKQAHALANAFQAKAGAPAAQARAAALgHQAMgGAHgLQAIgLADgOQAEgNgBgPQABgPgEgOQgDgOgIgKQgHgLgMgGQgLgGgRAAQgQAAgMAHg");
-	this.shape_4.setTransform(303.8,43.8);
+	this.shape_4.graphics.f("#666666").s().p("AggBZQgPgGgMgMQgLgLgHgSQgEgMgCgeQAAgTAFgRQAGgSAKgNQAKgMAQgIQAPgIAVAAIATACQAKACAIAEQAQAIAKAMQAKANAGASQAFARAAATQAAAWgGARQgGASgLAMQgLANgPAHQgRAHgSAAQgQgBgQgGgAgbhFQgMAGgHALQgIALgEAOQgDANAAAOQAAARAEAOQAFAOAHAKQAIALAMAFQALAGAOAAQARAAALgHQALgGAIgLQAHgLAEgOQAEgNAAgPQAAgPgEgOQgDgOgIgKQgIgLgLgGQgLgGgRAAQgPAAgMAHg");
+	this.shape_4.setTransform(313.5,43.8);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#666666").s().p("AgnBdIAAi0IAUAAIAAAiIABAAQAJgWANgIQAOgJAWAAIAAAXQgSAAgLAFQgLAGgGALQgHAKgDAOQgDANAAAOIAABZg");
-	this.shape_5.setTransform(289,43.6);
+	this.shape_5.setTransform(298.8,43.6);
 
 	this.shape_6 = new cjs.Shape();
-	this.shape_6.graphics.f("#666666").s().p("AgGBuQgJgIABgUIAAiDIgaAAIAAgSIAaAAIAAgyIAUAAIAAAyIAiAAIAAASIgiAAIAAB7IAAALIACAIQACAEAEABIAKABIAJAAIAIgCIAAARIgKACIgOACQgQAAgHgIg");
-	this.shape_6.setTransform(277.5,41.6);
+	this.shape_6.graphics.f("#666666").s().p("AgGBuQgIgIAAgUIAAiDIgaAAIAAgSIAaAAIAAgyIATAAIAAAyIAiAAIAAASIgiAAIAAB7IABALIACAIQACAEADABIALABIAIAAIAJgCIAAARIgKACIgOACQgQAAgHgIg");
+	this.shape_6.setTransform(287.2,41.6);
 
 	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.f("#666666").s().p("AgQBeQgKgCgHgEQgQgHgKgNQgKgNgGgRQgEgSAAgTQgBgSAGgSQAFgRALgNQAKgOAQgHQAQgJATAAQAQAAAMAEQANAEAKAIQAJAHAGAMQAHAMACAQIgVAAQgGgVgNgLQgIgGgIgDQgJgDgKAAQgQAAgLAHQgMAHgHALQgHALgDAOQgEAOAAANQAAAOADANQAEAOAHALQAHALAMAGQALAHAQAAQALAAAKgEQAJgDAHgGQAIgHAEgJQAEgJACgLIAXAAQgDAPgGANQgGAMgKAJQgJAJgOAFQgNAFgRAAg");
-	this.shape_7.setTransform(262.9,43.8);
+	this.shape_7.graphics.f("#666666").s().p("AgRBeQgJgCgIgEQgPgHgLgNQgKgNgEgRQgGgSABgTQAAgSAFgSQAGgRAKgNQALgOAPgHQAPgJAUAAQAPAAANAEQANAEAKAIQAKAHAGAMQAFAMADAQIgWAAQgFgVgOgLQgHgGgIgDQgJgDgKAAQgQAAgLAHQgMAHgHALQgHALgDAOQgEAOAAANQAAAOADANQAEAOAHALQAHALAMAGQALAHAQAAQALAAAKgEQAJgDAHgGQAIgHAEgJQAFgJABgLIAXAAQgDAPgGANQgHAMgJAJQgKAJgNAFQgNAFgRAAg");
+	this.shape_7.setTransform(272.7,43.8);
 
 	this.shape_8 = new cjs.Shape();
 	this.shape_8.graphics.f("#666666").s().p("AgRBeQgKgCgIgEQgPgHgLgNQgKgNgFgRQgFgRAAgUQAAgTAGgSQAGgRALgNQAKgNAQgIQAPgIATAAQAlAAAWAaQAVAaAAAwIiMAAQAAAPAEANQAEANAHAKQAIAJALAGQAMAGAOAAQAUAAAPgLQAHgFAFgIQAFgIADgKIAXAAQgEANgGALQgGALgKAIQgJAIgNAFQgNAFgRAAgAA7gLQAAgOgDgMQgEgLgHgJQgIgIgKgFQgLgGgOAAQgNAAgLAGQgLAFgHAJQgIAIgEAMQgFAMgBANIB1AAIAAAAg");
-	this.shape_8.setTransform(243.5,43.8);
+	this.shape_8.setTransform(253.2,43.8);
 
 	this.shape_9 = new cjs.Shape();
-	this.shape_9.graphics.f("#666666").s().p("AgJB+IAAj7IATAAIAAD7g");
-	this.shape_9.setTransform(229.9,40.3);
+	this.shape_9.graphics.f("#666666").s().p("AgKB+IAAj7IAUAAIAAD7g");
+	this.shape_9.setTransform(239.7,40.3);
 
 	this.shape_10 = new cjs.Shape();
 	this.shape_10.graphics.f("#666666").s().p("AhUB+IAAj7ICmAAIAAAVIiPAAIAABbICBAAIAAATIiBAAIAABjICTAAIAAAVg");
-	this.shape_10.setTransform(216.1,40.3);
+	this.shape_10.setTransform(225.8,40.3);
 
 	this.shape_11 = new cjs.Shape();
 	this.shape_11.graphics.f("#666666").s().p("AgRBeQgKgCgIgEQgPgHgLgNQgKgNgFgRQgFgRAAgUQAAgTAGgSQAGgRALgNQAKgNAQgIQAPgIATAAQAlAAAWAaQAVAaAAAwIiMAAQAAAPAEANQAEANAHAKQAIAJALAGQAMAGAOAAQAUAAAPgLQAHgFAFgIQAFgIADgKIAXAAQgEANgGALQgGALgKAIQgJAIgNAFQgNAFgRAAgAA7gLQAAgOgDgMQgEgLgHgJQgIgIgKgFQgLgGgOAAQgNAAgLAGQgLAFgHAJQgIAIgEAMQgFAMgBANIB1AAIAAAAg");
-	this.shape_11.setTransform(185.2,43.8);
+	this.shape_11.setTransform(195,43.8);
 
 	this.shape_12 = new cjs.Shape();
-	this.shape_12.graphics.f("#666666").s().p("AAzB+IAAh3QAAgLgCgJQgDgJgGgGQgLgMgZAAQgJAAgIADQgIADgHAFQgGAFgEAFQgFAHgCAHQgEAIAAAIIgBARIAABiIgVAAIAAj7IAVAAIAABgQANgOANgHQAHgFAIgCQAIgCAJAAQAQAAAPAFQAOAHAKANQAGAKACALIABAUIAAB3g");
-	this.shape_12.setTransform(165.8,40.3);
+	this.shape_12.graphics.f("#666666").s().p("AAzB+IAAh3QAAgLgCgJQgDgJgGgGQgKgMgaAAQgIAAgJADQgIADgHAFQgGAFgEAFQgFAHgCAHQgEAIAAAIIgBARIAABiIgVAAIAAj7IAVAAIAABgQANgOAOgHQAGgFAIgCQAIgCAIAAQASAAAOAFQAOAHAKANQAGAKACALIABAUIAAB3g");
+	this.shape_12.setTransform(175.5,40.3);
 
 	this.shape_13 = new cjs.Shape();
-	this.shape_13.graphics.f("#666666").s().p("AgGBuQgJgIAAgUIAAiDIgZAAIAAgSIAZAAIAAgyIAVAAIAAAyIAhAAIAAASIghAAIAAB7IAAALIACAIQACAEADABIALABIAJAAIAIgCIAAARIgKACIgOACQgQAAgHgIg");
-	this.shape_13.setTransform(151.2,41.6);
+	this.shape_13.graphics.f("#666666").s().p("AgLB+IAAjmIhQAAIAAgVIC3AAIAAAVIhQAAIAADmg");
+	this.shape_13.setTransform(156.1,40.3);
 
 	this.shape_14 = new cjs.Shape();
 	this.shape_14.graphics.f("#666666").s().p("AgMAQIAAgfIAZAAIAAAfg");
@@ -1077,7 +1064,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
         }
         circle.name = "particle";
         stage.addChild(circle);
-       console.log('added circle - density is ' + emitter.density);
+       //console.log('added circle - density is ' + emitter.density);
     }
 
     function handleTick(event) {
@@ -1172,7 +1159,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		}
 		function addHeat() {
 			heat < 10 ? heat++ : heat = 10;	// heat is 0 to 10
-			console.log("heat:"+heat);
+			//console.log("heat:"+heat);
 			heatAlpha = heat*2;
 
 			if(heat == 0) {
@@ -1181,7 +1168,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 				this.heater_mc.wires_mc.shadow = null;
 			} else {
 				emitter.density = heat;
-				console.log('setting up stage with density of ' + emitter.density);
+				//console.log('setting up stage with density of ' + emitter.density);
 				// clean up the emitter first?
 				removeElectrons();
 				for(i = 0; i < emitter.density; i++) {
@@ -1189,11 +1176,17 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		    }
 		    this.heater_mc.wires_mc.shadow = new createjs.Shadow("rgb(255, 147, 147)", heat, 0, heatAlpha);
 			}
+			if(heaterHelpOn == false) {
+				this.helpText_mc.text = "Heater: Heating the cathode means more electrons are released from the tungsten filament.";
+				heaterHelpOn = true;
+			} else {
+				heaterHelpOn = false;
+			}
 		}
 
 		function minusHeat() {
 			heat > 1 ? heat-- : heat = 0;
-			console.log("heat:"+heat);
+			//console.log("heat:"+heat);
 			heatAlpha = heat*2;
 			if(heat == 0) {
 				removeElectrons();
@@ -1207,12 +1200,19 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		    }
 				this.heater_mc.wires_mc.shadow = null;
 			}
+			if(heaterHelpOn == false) {
+				this.helpText_mc.text = "Heater: Heating the cathode means more electrons are released from the tungsten filament.";
+				heaterHelpOn = true;
+			} else {
+				heaterHelpOn = false;
+			}
+
 		}
 		function addVoltage() {
 			voltage < 100 ? voltage += 5 : voltage = 100;
 			emitter.wind = (voltage / 100) / 2.5;
 			filtAlpha = voltage / 10;
-			console.log("voltage = " + voltage + ' wind = ' + emitter.wind);
+			//console.log("voltage = " + voltage + ' wind = ' + emitter.wind);
 			if(voltage >= 10) {
 				this.walls_mc.shadow = new createjs.Shadow("#00cdcd", 1, 1, filtAlpha);
 				this.voltage_mc.voltCables_mc.shadow = new createjs.Shadow("#00cdcd", 1, 1, filtAlpha);
@@ -1221,12 +1221,18 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 				this.voltage_mc.voltCables_mc.shadow = null;
 			}
 			updateCurves(voltage);
+			if(voltageHelpOn == false) {
+				this.helpText_mc.text = "Anode: Increasing the voltage draws more electrons away from the Cathode heater.";
+				voltageHelpOn = true;
+			} else {
+				voltageHelpOn = false;
+			}
 		}
 		function minusVoltage() {
 			voltage >= 5 ? voltage -= 5 : voltage = 0;
 			emitter.wind = (voltage / 100) / 2.5;
 			filtAlpha = voltage / 10;
-			console.log("voltage = " + voltage + ' wind = ' + emitter.wind);
+			//console.log("voltage = " + voltage + ' wind = ' + emitter.wind);
 
 			if(voltage >= 10) {
 				this.walls_mc.shadow = new createjs.Shadow("#00cdcd", 1, 1, filtAlpha);
@@ -1236,6 +1242,12 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 				this.voltage_mc.voltCables_mc.shadow = null;
 			}
 			updateCurves(voltage);
+			if(voltageHelpOn == false) {
+				this.helpText_mc.text = "Anode: Increasing the voltage draws more electrons away from the Cathode heater.";
+				voltageHelpOn = true;
+			} else {
+				voltageHelpOn = false;
+			}
 		}
 
 		function updateCurves(voltage) {
@@ -1315,13 +1327,6 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.logo_mc.setTransform(395.7,49.1,1,1,0,0,0,369.7,41);
 
 	this.timeline.addTween(cjs.Tween.get(this.logo_mc).wait(1));
-
-	// q
-	this.q_mc = new lib.q();
-	this.q_mc.parent = this;
-	this.q_mc.setTransform(51.5,551.6,1,1,0,0,0,13.4,22.6);
-
-	this.timeline.addTween(cjs.Tween.get(this.q_mc).wait(1));
 
 	// helpText_mc
 	this.helpText_mc = new cjs.Text("Click on an item to display information about it in this help area.", "18px 'Helvetica'", "#aaaaaa");
