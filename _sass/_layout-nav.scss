@@ -41,6 +41,7 @@
         position: relative;
     }
     .logo {
+        float: left;
         @include media ($large-screen) {
             float: left;
             padding-left: $em-base;
@@ -81,6 +82,9 @@
 /* animated logo */
 #animation_container {
     float: left;
+    @include media ($small-screen) {
+        margin-top: 12px;
+    }
 }
 /*
  * Nav menu items
