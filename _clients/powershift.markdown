@@ -9,7 +9,7 @@ testimonial_markdown: In just a few short months, DoubleXEconomy had to build a 
 testimonial_cite: Asia Elsner, Double X Economy
 ---
 
-Now in its fourth year, **The Power Shift Forum** for Women in the World Economy, founded by Professor Linda Scott, is coming to the United States in May 2016.  
+Now in its fifth year, **The Power Shift Forum** for Women in the World Economy, founded by Professor Linda Scott, takes place in Washington D.C..  
 
 Eye Division built the site and is proud to be working with Double X Economy and the Power Shift team to support their site throughout the event and beyond.
   

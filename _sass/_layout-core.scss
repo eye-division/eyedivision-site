@@ -31,7 +31,7 @@ body {
     display: block;
     @include flex(1 0 auto);
 }
-h1, h2, h3 {
+h1 {
     text-align: center;
 }
 h1 {
@@ -87,10 +87,13 @@ a:hover .icon { /* hover colour */
     fill: $eyedivision-dark;
 }
 .icon--readmore {
-    fill: $black;
+    fill: $white;
     margin-bottom: -5px;
     width: 20px;
     height: 20px;
+}
+a:hover .icon--readmore { /* hover colour */
+    fill: $brand-primary;
 }
 .icon--post {
     fill: $action-color;
@@ -114,35 +117,6 @@ a:hover .icon { /* hover colour */
 .icon-vimeo_square { fill: $vimeo; }
 .icon-linkedin { fill: $linkedin; }
 
-.site-header-container, .post-header-container {
-    width: 100%;
-    text-align: center;
-    &.has-cover {
-        color: $white;
-        text-shadow: 1px 1px 1px $black;
-        //text-shadow: 0 2px 1px rgba(0,0,0,0.67) !important;
-        background-position: 50% 50%;
-        background-size: cover;
-        .title {
-            font-size: modular-scale(6);
-        }
-        .subtitle, .info {
-            font-size: modular-scale(1);
-        }
-    }
-    .scrim {
-        padding: 3em 1em;
-        &.has-cover {
-            //background-color: rgba(0,0,0,0.2);
-            padding: 6em 1em 1em !important;
-            @include media($large-screen) {
-                padding: 10em 1em 10em !important;
-            }
-        }
-    }
-
-}
-
 /*
 *	Header
 */
@@ -161,9 +135,9 @@ a:hover .icon { /* hover colour */
 .page {
 
     @include outer-container(100%);
-    padding: $navigation-height-large 0 1em;
+    //padding: $navigation-height-mobile 0 1em;
     @include media ($large-screen) {
-        padding: $navigation-height 1em 1em;
+        //padding: $navigation-height-large 1em 1em;
     }
 
     .site-header-container {
@@ -208,9 +182,7 @@ article {
 */
 .contact {
     text-align: center;
-    //.page {
-        //@include outer-container;
-    //}
+
 }
 /*
 *	Footer
@@ -221,13 +193,12 @@ article {
 
 .site-footer {
     text-align: center;
-    @include outer-container;
     $link-color: $dark-gray;
     border-top: 1px solid $light-gray;
 
     padding: 1em;
-    //background-color: $highlight-color;
-    //color: $white;
+    background-color: $eyedivision-dark;
+    color: $eyedivision-light;
     a {
         color: $link-color;
         &:active,
@@ -246,11 +217,6 @@ article {
 *   Contact Info (left)
 */
 .site-contact {
-    @include span-columns(12);
-    //@include media ($large-screen) {
-    //    @include span-columns(6);
-    //}
-
     font-size: 0.9em;
     i {
         width: 1.25em;
@@ -265,10 +231,7 @@ article {
 */
 .site-signature {
     margin-top: 1em;
-    @include span-columns(12);
-    //@include media ($large-screen) {
-    //    @include span-columns(6);
-    //}
+
     font-size: 0.9em;
     a {
         text-decoration: underline;
@@ -278,10 +241,10 @@ article {
 .readmore {
     @extend button;
     color: $white;
-    @include bbb-flat-style($medium-gray, $white);
+    @include bbb-flat-style($eyedivision-dark, $white);
     &:hover:not(:disabled) {
-        color: $white;
-        background: darken($medium-gray, 10%);
+        color: $brand-primary;
+        background: lighten($eyedivision-dark, 10%);
         @include transition (background 0.2s ease-in-out);
         text-decoration: none;
   }

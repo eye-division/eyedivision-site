@@ -9,4 +9,4 @@ testimonial_markdown: Alun Ward at Eye Division is wonderfully intuitive and cre
 testimonial_cite: David Attwooll
 ---
 
-A small static site for award-winning Oxford poet, David Attwooll
+A small static site for award-winning Oxford poet, David Attwooll.

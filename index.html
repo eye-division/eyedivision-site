@@ -1,48 +1,51 @@
 ---
 layout: front
-main_image_path: /assets/images/clevedon_pools.jpg
-main_image_description: Clevedon Pool
+main_image_path: /assets/images/beach.jpg
+main_image_description: Sands of Sound, Lerwick, Shetland
 ---
 
-<div class="site-header-container {% if page.main_image_path %}has-cover{% endif %}" {% if page.main_image_path %}style="background-image: url({{ page.main_image_path }});"{% endif %}>
-  <div class="scrim {% if page.main_image_path %}has-cover{% endif %}">
-    <header class="site-header">
-      <h2 class="title">Work with us and make the web work for you</h2>
-			<p class="hero__strapline">Eye Division have been creating online solutions since 2005 - from simple responsive websites to custom web applications; from social media integration to eCommerce &amp; interactive mapping; from cloud office advice to bespoke back-office tools.</p>
-    </header>
-  </div>
-</div>
+<article class="hero">
+    <h2 class="title">Work with us and make the web work for you</h2>
+
+		<p class="hero__strapline">Eye Division have been creating online solutions since 2005 - from simple responsive websites to custom web applications; from social media integration to eCommerce &amp; interactive mapping; from cloud office advice to bespoke back-office tools.</p>
+
+    <div id="animation_container" class="animated_logo" style="background-color:rgba(0, 0, 0, 0); width:100px; height:100px">
+      <canvas id="canvas" width="100" height="100" style="position: absolute; display: block; background-color:rgba(0, 0, 0, 0);"></canvas>
+      <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:100px; height:100px; position: absolute; left: 0px; top: 0px; display: block;">
+      </div>
+    </div>
+</article>
 
 {% assign clients = site.clients | sort: "project_date" | reverse %}
 
 {% if clients %}
-<section class="clients-front centered">
+  <section class="clients-front centered">
 
-  <h2>Recent work</h2>
-	<ul class="clients-list">
-  {% for client in clients limit:3 %}
-    <li class="client{% cycle '', ' last' %} hvr-radial-in">
-      <a href="{{ client.url | prepend: site.baseurl }}" title="{{ client.title }}" class="">
+    <h2>Recent work</h2>
+  	<ul class="clients-list">
+    {% for client in clients limit:6 %}
+      <li class="client{% cycle '', ' last' %} hvr-radial-in">
+        <a href="{{ client.url | prepend: site.baseurl }}" title="{{ client.title }}" class="">
 
-        {% if client.logo %}
-         <figure>
-            {% include img.html src=client.logo width=150 %}
-          </figure>
-        {% endif %}
-				<h3>
-		      {{ client.title }}
-		    </h3>
-      </a>
+          {% if client.logo %}
+           <figure>
+              {% include img.html src=client.logo width=150 %}
+            </figure>
+          {% endif %}
+  				<h3>
+  		      {{ client.title }}
+  		    </h3>
+        </a>
 
-    </li>
-  {% endfor %}
-	</ul>
+      </li>
+    {% endfor %}
+  	</ul>
 
- <footer>
-  <p><a href="{{ site.baseurl }}/clients/" class="readmore">View all . . . <svg class="icon icon--readmore"><use xlink:href="#icon-double_angle_right" /></svg></a></p>
- </footer>
+   <footer class="clients-front-footer">
+    <p><a href="{{ site.baseurl }}/clients/" class="readmore">View all . . . <svg class="icon icon--readmore"><use xlink:href="#icon-double_angle_right" /></svg></a></p>
+   </footer>
 
-</section>
+  </section>
 {% endif %}
 
 

@@ -1,0 +1,72 @@
+body.front {
+
+}
+@include parallax-init; // https://codepen.io/scottkellum/pen/bHEcA/
+.front__image {
+    background-image: url('/assets/images/beach_s.jpg');
+
+    @include media ($large-screen) {
+        background-image: url('/assets/images/beach.jpg');
+        background-size: cover;
+    }
+}
+.front {
+    .page-content {
+       // @include outer-container(100%);
+
+    }
+    .page {
+        @include outer-container(100%);
+        padding: $navigation-height-mobile 0;
+        @include media ($large-screen) {
+            padding: $navigation-height-large 0;
+        }
+    }
+    .hero {
+        text-align: center;
+        //@include parallax(-.4);
+        //top: 200px;
+        margin: 4em 0 4em;
+        padding: 2em;
+        background: rgba(0,0,0,0.5);
+        color: $eyedivision-light;
+    }
+    .title {
+        font-size: modular-scale(5);
+        @include media ($large-screen) {
+            font-size: modular-scale(6);
+        }
+    }
+    .hero__strapline {
+        font-size: modular-scale(3);
+        @include media ($large-screen) {
+            font-size: modular-scale(4);
+        }
+    }
+    .clients-front {
+        padding: 20px;
+        background: url(/assets/images/eyebg.png);
+        z-index: 200;
+        @include parallax(.2);
+        top: 50px;
+        color: $eyedivision-dark;
+    }
+    .clients-front-footer {
+        padding-top: 2em;
+    }
+    .site-header {
+        @include parallax(.4);
+        //top: 200px;
+        //left: 200px;
+    }
+    .footer {
+
+    }
+
+}
+
+/* animated logo */
+.animated_logo {
+    //float: left;
+    margin: 0 auto;
+}

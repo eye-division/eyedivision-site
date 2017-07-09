@@ -1,12 +1,13 @@
 ---
 title:  Oxfordshire Artweeks
 description: Oxfordshire Artweeks
-project_date: 2015-11-01
+project_date: 2017-07-01
 logo: /assets/images/logos/artweeks-logo.png
 screenshot: /assets/images/screenshots/artweeks2017-desktop.jpg
 site: https://www.artweeks.org
 testimonial_markdown: 
 testimonial_cite: 
+start_date: 2015-11-01
 ---
 
 **Oxfordshire Artweeks** is the UK’s oldest and largest open studio event.  We have a long-standing relationship with Artweeks, and Alun has exhibited with them several times. We first re-built Artweeks’ website in 2011 and continue to manage, develop and support the service.  The site allows over 700 artists exhibiting at almost 500 venues to manage and pay for their exhibition entries online.  

@@ -60,7 +60,7 @@ $brand-danger:          #d9534f !default;
 $brand-secondary:		#ED961A;
 
 $eyedivision-primary: #FFA500 !default;
-$eyedivision-dark: #000 !default;
+$eyedivision-dark: #090909 !default;
 $eyedivision-light: #fff !default;
 
 /* SASS / Social Media Brand Colors */
@@ -101,7 +101,7 @@ $form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
 $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
 
 // Navigation - header heights
-$navigation-height: 6em;
+$navigation-height-mobile: 10em;
 $navigation-height-large: 8em;
 /*
 *	Variables
@@ -115,4 +115,8 @@ $b1: 960px;
 $desktop: $b1;
 */
 
+// Magic parallax mixins - from https://codepen.io/scottkellum/pen/bHEcA/
 
+$parallax-perspective : 1 !default;
+$parallax-element     : "body" !default;
+$parallax-ios         : true !default;

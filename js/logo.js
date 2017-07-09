@@ -75,35 +75,36 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 	// eyes-closed
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#000000").s().p("AgVBrQgKgEgIgHIgEgHIAJAAIAAABQAPAPATAAQAVAAAOgPIABgBIAJAAIgFAHQgJAHgKAEQgKAFgLAAQgLAAgKgFgAgVhcQgKgFgIgHIgEgGIAJAAIAAAAQAPAPATAAQAVAAAOgPIABAAIAJAAIgFAGQgJAHgKAEQgKAFgLgBQgLAAgKgDg");
-	this.shape.setTransform(24.4,29.5);
+	this.shape.graphics.f("#FFFFFF").s().p("AgrDXQgUgJgPgPQgGgGgEgGIASAAIABACQAdAdAoAAQApAAAdgdIACgCIARAAIgKAMQgQAPgUAIQgUAJgXAAQgWAAgVgIgAgri6QgUgJgPgPQgGgGgEgGIASAAIABACQAdAdAoAAQApAAAdgdIACgCIARAAIgKAMQgQAPgUAIQgUAJgXAAQgWAAgVgIg");
+	this.shape.setTransform(48.8,59);
 	this.shape._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(116).to({_off:false},0).wait(4));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(112).to({_off:false},0).wait(4));
 
 	// line
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#000000").s().p("AiVAFIAAgJIErAAIAAAJg");
-	this.shape_1.setTransform(25.3,25.1);
+	this.shape_1.graphics.f("#FFFFFF").s().p("AkrAKIAAgTIJXAAIAAATg");
+	this.shape_1.setTransform(50.5,50.2);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(120));
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(116));
 
 	// eyes
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#000000").s().p("AgdCXQgKgEgIgIQgHgHgFgKQgEgLAAgLQAAgMAEgKQAFgKAHgIQAIgHAKgFQAKgEALAAQALAAALAEQAJAFAIAHQAIAIAEAKQAFALgBALQABALgFALQgEAKgIAHQgIAIgKAEQgKAFgLAAQgLAAgKgFgAgbA2QgIAEgHAHQgOAOAAAVQgBAUAOAOQAPAPAUAAQAUAAAOgOQAHgHAEgJQAEgJAAgKQAAgUgPgPQgOgOgUAAQgJAAgKADgAiVAGIAAgJIErAAIAAAJgAgdgvQgKgFgIgHQgHgIgFgKQgEgKAAgMQAAgLAEgLQAFgKAHgHQAIgIAKgEQAKgFALAAQALAAALAFQAJAEAIAIQAIAHAEAKQAFALgBALQABAMgFAKQgEAKgIAIQgIAHgKAEQgKAFgLAAQgLAAgKgEgAgbiQQgIADgHAHQgOAPAAAUQgBAUAOAPQAPAOAUAAQAUAAAOgOQAHgHAEgJQAEgJAAgKQAAgUgPgPQgOgOgUAAQgJAAgKAEg");
-	this.shape_2.setTransform(25.3,25);
+	this.shape_2.graphics.f("#FFFFFF").s().p("Ag8EuQgUgHgPgQQgPgQgJgTQgIgWAAgWQAAgYAIgUQAJgTAPgRQAQgOAUgKQAVgHAWgBQAWABAVAHQAUAKAPAOQAPARAJATQAJAWAAAWQAAAWgJAWQgJATgPAQQgQAPgUAIQgUAKgWgBQgXABgVgKgAg2BtQgRAHgOAOQgdAdAAApQgBAoAdAcQAdAfApAAQAoAAAdgdQANgOAIgSQAIgSAAgUQAAgpgdgdQgdgcgoAAQgTgBgTAIgAkrAMIAAgTIJXAAIAAATgAg8hfQgUgKgPgPQgPgPgJgVQgIgTAAgZQAAgVAIgVQAJgVAPgOQAQgRAUgIQAVgJAWAAQAWAAAVAJQAUAIAPARQAPAOAJAVQAJAVAAAWQAAAYgJATQgJAVgPAPQgQAPgUAJQgUAIgWABQgXgBgVgHgAg2kiQgRAIgOAOQgdAcAAAoQgBApAdAdQAdAdApAAQAoAAAdgdQANgNAIgRQAIgTAAgUQAAgpgdgcQgdgdgogBQgTABgTAHg");
+	this.shape_2.setTransform(50.5,50.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_2).to({_off:true},116).wait(4));
+	this.timeline.addTween(cjs.Tween.get(this.shape_2).to({_off:true},112).wait(4));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(35.3,34.5,30,31.2);
+p.nominalBounds = new cjs.Rectangle(70.5,68.9,60,62.3);
 // library properties:
 lib.properties = {
-	width: 50,
-	height: 50,
+	id: '383E10CFF8014AA68B8876AAC8645E43',
+	width: 100,
+	height: 100,
 	fps: 24,
 	color: "#FFFFFF",
-	opacity: 1.00,
+	opacity: 0.00,
 	webfonts: {},
 	manifest: [],
 	preloads: []
