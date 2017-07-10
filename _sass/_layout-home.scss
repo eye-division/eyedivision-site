@@ -7,19 +7,13 @@ body.front {
     }
 }
 
-@include parallax-init; // https://codepen.io/scottkellum/pen/bHEcA/
-.front__image {
+//@include parallax-init; // https://codepen.io/scottkellum/pen/bHEcA/
 
-}
 .front {
 
     .page-content {
-        /*
-        > * {
-            position: absolute;
-        }
-        */
-        margin-top: 10em;
+
+        margin-top: 0;
         @include media ($large-screen) {
             margin-top: 0;
         }
@@ -27,8 +21,8 @@ body.front {
 
     .hero {
         text-align: center;
-        @include parallax(-.4);
-        margin: 0;
+        //@include parallax(-.4);
+        margin: 6em 0 0;
         padding: 2em;
         background: rgba(0,0,0,0.5);
         color: $eyedivision-light;
@@ -48,10 +42,10 @@ body.front {
     .clients-front {
         padding: 20px;
         background: url(/assets/images/eyebg.png);
-        @include parallax(-.2);
-        margin-top: 30em;
+        //@include parallax(-.2);
+        margin-top: 4em;
         @include media ($large-screen) {
-            margin-top: 16em;
+            margin-top: 6em;
         }
         margin-bottom: 6em;
         color: $eyedivision-dark;
@@ -71,6 +65,7 @@ body.front {
       justify-content: center;
 
       li {
+        position: relative;
         text-align: center;
         line-height: 1em;
         //padding-top: 50px;
