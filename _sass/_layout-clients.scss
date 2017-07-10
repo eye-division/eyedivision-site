@@ -1,3 +1,4 @@
+// home page clients list page
 .clients-list {
 
   @extend %default-ul;
@@ -18,7 +19,7 @@
     //border-radius: $base-border-radius;
     //box-shadow: inset 0 0 1px lighten($brand-primary, 30%), 0 1px 2px $brand-primary;
     display: block;
-    flex: 2 2 13em;
+    flex: 4 4 13em;
     margin: 0.4em;
     padding: 1em;
     text-decoration: none;

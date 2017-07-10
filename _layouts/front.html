@@ -6,15 +6,19 @@
   {% assign section = page.url | split: '/' %}
 
   <body class="{% if section[1] %}{{section[1]}}{% else %}front{% endif %}">
-		<div class="front__image">
-    {% include header.html %}
 
-    <div role="site-content" class="page-content">
-        {{ content }}
-    </div>
 
-    {% include footer.html %}
-  </div>
+      {% include header.html %}
+
+      <div role="site-content" class="page-content">
+          {{ content }}
+
+
+      </div>
+
+      {% include footer.html %}
+
+
   </body>
 
 </html>

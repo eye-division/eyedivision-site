@@ -19,8 +19,7 @@ permalink: /clients/
 
       {% if client.logo %}
       <figure>
-
-        <img src="{{ client.logo }}" alt="{{ client.title }}"/>
+        {% include img.html src=client.logo alt=client.title %}
 
       </figure>
       {% endif %}

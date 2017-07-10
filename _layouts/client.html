@@ -5,7 +5,7 @@ layout: default
 
 {% if page.screenshot %}
   <figure class="centered">
-    {% include img.html src=page.screenshot width=960 alt=page.description %}
+    {% include img.html src=page.screenshot width=1200 alt=page.description %}
   </figure>
 {% endif %}
 
@@ -30,7 +30,7 @@ layout: default
 <div class="centered">
 {% if page.logo %}
 
-		<p><img src="{{ page.logo }}" alt="{{ page.description }} logo" class="logo"></p>
+		<p>{% include img.html src=page.logo alt=page.description %}</p>
 
 {% endif %}
 	{% if page.start_date %}

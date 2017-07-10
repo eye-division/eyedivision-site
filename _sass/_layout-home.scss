@@ -1,8 +1,4 @@
 body.front {
-
-}
-@include parallax-init; // https://codepen.io/scottkellum/pen/bHEcA/
-.front__image {
     background-image: url('/assets/images/beach_s.jpg');
 
     @include media ($large-screen) {
@@ -10,23 +6,29 @@ body.front {
         background-size: cover;
     }
 }
-.front {
-    .page-content {
-       // @include outer-container(100%);
 
-    }
-    .page {
-        @include outer-container(100%);
-        padding: $navigation-height-mobile 0;
+@include parallax-init; // https://codepen.io/scottkellum/pen/bHEcA/
+.front__image {
+
+}
+.front {
+
+    .page-content {
+        /*
+        > * {
+            position: absolute;
+        }
+        */
+        margin-top: 10em;
         @include media ($large-screen) {
-            padding: $navigation-height-large 0;
+            margin-top: 0;
         }
     }
+
     .hero {
         text-align: center;
-        //@include parallax(-.4);
-        //top: 200px;
-        margin: 4em 0 4em;
+        @include parallax(-.4);
+        margin: 0;
         padding: 2em;
         background: rgba(0,0,0,0.5);
         color: $eyedivision-light;
@@ -46,21 +48,97 @@ body.front {
     .clients-front {
         padding: 20px;
         background: url(/assets/images/eyebg.png);
-        z-index: 200;
-        @include parallax(.2);
-        top: 50px;
+        @include parallax(-.2);
+        margin-top: 16em;
+        margin-bottom: 6em;
         color: $eyedivision-dark;
     }
     .clients-front-footer {
         padding-top: 2em;
     }
-    .site-header {
-        @include parallax(.4);
-        //top: 200px;
-        //left: 200px;
-    }
-    .footer {
+    .clients-list {
 
+      @extend %default-ul;
+
+      @include clearfix;
+      align-items: stretch;
+      clear: both;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      li {
+        text-align: center;
+        line-height: 1em;
+        //padding-top: 50px;
+        align-self: stretch;
+        background: $lightgrey;
+        //border-radius: $base-border-radius;
+        //box-shadow: inset 0 0 1px lighten($brand-primary, 30%), 0 1px 2px $brand-primary;
+        display: block;
+        flex: 4 4 13em;
+        margin: 0.4em;
+        padding: 1em;
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
+      }
+    }
+    .clients-list img {
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+    figure {
+        //height: 163px;
+        overflow: hidden;
+        //position: relative;
+        //width: 289px;
+    }
+    figcaption {
+        background: rgba($dark-gray,0.8);
+        color: white;
+        display: table;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        -webkit-transition: all 300ms;
+        -moz-transition: all 300ms;
+        transition: all 300ms;
+        -webkit-transition-delay: 100ms;
+        -moz-transition-delay: 100ms;
+        transition-delay: 100ms;
+        z-index: 100;
+        line-height: 1;
+    }
+    li:hover figcaption {
+        opacity: 1;
+    }
+    figcaption p {
+        display: table-cell;
+        font-size: 1.5em;
+        position: relative;
+        top: -40px;
+        width: 289px;
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        transition: all 300ms ease-out;
+        vertical-align: middle;
+    }
+    li:hover figcaption p {
+        -moz-transform: translateY(40px);
+        -webkit-transform: translateY(40px);
+        transform: translateY(40px);
+    }
+
+    .site-footer {
+        margin-top: 4em;
+        border-top: none;
+        font-size: modular-scale(2);
+        padding-bottom: 2em;
     }
 
 }

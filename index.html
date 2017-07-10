@@ -7,7 +7,7 @@ main_image_description: Sands of Sound, Lerwick, Shetland
 <article class="hero">
     <h2 class="title">Work with us and make the web work for you</h2>
 
-		<p class="hero__strapline">Eye Division have been creating online solutions since 2005 - from simple responsive websites to custom web applications; from social media integration to eCommerce &amp; interactive mapping; from cloud office advice to bespoke back-office tools.</p>
+		<p class="hero__strapline">Eye Division have been creating online solutions since 2005 - from simple responsive websites to custom web applications; from social media integration to ecommerce &amp; interactive mapping; from cloud office advice to bespoke back-office tools.</p>
 
     <div id="animation_container" class="animated_logo" style="background-color:rgba(0, 0, 0, 0); width:100px; height:100px">
       <canvas id="canvas" width="100" height="100" style="position: absolute; display: block; background-color:rgba(0, 0, 0, 0);"></canvas>
@@ -21,25 +21,23 @@ main_image_description: Sands of Sound, Lerwick, Shetland
 {% if clients %}
   <section class="clients-front centered">
 
-    <h2>Recent work</h2>
-  	<ul class="clients-list">
-    {% for client in clients limit:6 %}
-      <li class="client{% cycle '', ' last' %} hvr-radial-in">
-        <a href="{{ client.url | prepend: site.baseurl }}" title="{{ client.title }}" class="">
+    <h2>Some of our clients</h2>
 
+    <ul class="clients-list">
+    {% for client in clients | limit:8 %}
+      <li class="client{% cycle '', ' last' %}">
+        <a href="{{ client.url | prepend: site.baseurl }}" title="{{ client.title }}" class="">
           {% if client.logo %}
-           <figure>
-              {% include img.html src=client.logo width=150 %}
+            <figure>
+              {% include img.html src=client.logo alt=client.title %}
+              <figcaption><p>{{ client.title }}</p></figcaption>
             </figure>
-          {% endif %}
-  				<h3>
-  		      {{ client.title }}
-  		    </h3>
+         {% endif %}
         </a>
 
       </li>
     {% endfor %}
-  	</ul>
+    </ul>
 
    <footer class="clients-front-footer">
     <p><a href="{{ site.baseurl }}/clients/" class="readmore">View all . . . <svg class="icon icon--readmore"><use xlink:href="#icon-double_angle_right" /></svg></a></p>
