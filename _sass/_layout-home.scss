@@ -49,7 +49,10 @@ body.front {
         padding: 20px;
         background: url(/assets/images/eyebg.png);
         @include parallax(-.2);
-        margin-top: 16em;
+        margin-top: 30em;
+        @include media ($large-screen) {
+            margin-top: 16em;
+        }
         margin-bottom: 6em;
         color: $eyedivision-dark;
     }
@@ -87,6 +90,7 @@ body.front {
         display: block;
         height: auto;
         max-width: 100%;
+        margin: 0 auto;
     }
     figure {
         //height: 163px;
