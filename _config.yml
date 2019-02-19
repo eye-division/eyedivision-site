@@ -1,10 +1,12 @@
-# External gems
-gems:
+# External gems - updated to plugins in jekyll v3.6
+plugins:
  # - jekyll-archives # Sorry, not GitHub pages friendly!
-  - jekyll-sitemap
-
-exclude:
-  - "/vendor/"
+ # - jekyll-assets
+ # - autoprefixer-rails
+   - jekyll-seo-tag
+   - jekyll-sitemap
+   - jekyll/tagging
+   - jekyll-tagging-related_posts
 
 # Site settings
 title: Eye Division
@@ -23,9 +25,9 @@ email: info@eyedivision.com
 
 # Build settings
 markdown: kramdown
-paginate: 5
-paginate_path: "/page:num/"
-inter_post_navigation: false
+#paginate: 5
+#paginate_path: "/page:num/"
+#inter_post_navigation: false
 permalink: pretty
 
 # Image CDN
@@ -81,15 +83,15 @@ recaptcha_site_key: 6LdQIxUUAAAAAJAiUwXz-IFIZldyn-TEB0dLU0h6
 social:
   - name: Twitter
     icon: icon-twitter_sign
-    username: EyeDivision
-    url: https://twitter.com/EyeDivision
+    username: #EyeDivision
+    url: #https://twitter.com/EyeDivision
     desc: Follow us on Twitter
     share: true
 
   - name: Facebook
     icon: icon-facebook_sign
-    username: eyedivision
-    url: https://www.facebook.com/eyedivision
+    username: #eyedivision
+    url: #https://www.facebook.com/eyedivision
     desc: Like us on Facebook
     share: true
 
@@ -103,9 +105,9 @@ social:
 
   - name: Instagram
     icon: icon-instagram
-    username: #eyedivision
-    url: #https://instagram.com/eyedivision
-    desc: Follow me on Instagram
+    username: eyedivision
+    url: https://instagram.com/eyedivision
+    desc: Follow us on Instagram
     share: false
 
 

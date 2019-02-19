@@ -24,7 +24,9 @@
 
 </footer>
 
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+{% if site.recaptcha_site_key and jekyll.environment == 'production' %}
+<script src="//www.google.com/recaptcha/api.js" async defer></script>
+{% endif %}
 {% if page.url == "/" %}
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 <script src="/js/logo.js"></script>

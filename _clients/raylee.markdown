@@ -1,7 +1,7 @@
 ---
 title: Ray Lee
 description: Invisible Forces
-project_date: 2016-12-01 00:00:00
+project_date: 2016-12-01
 logo: /assets/images/logos/raylee-logo.png
 screenshot: /assets/images/screenshots/raylee-desktop.jpg
 site: 'https://www.invisible-forces.com/'

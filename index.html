@@ -24,7 +24,9 @@ main_image_description: Sands of Sound, Lerwick, Shetland
     <h2>Some of our clients</h2>
 
     <ul class="clients-list">
-    {% for client in clients | limit:8 %}
+
+    {% for client in clients limit: 8 %}
+
       <li class="client{% cycle '', ' last' %}">
         <a href="{{ client.url | prepend: site.baseurl }}" title="{{ client.title }}" class="">
           {% if client.logo %}

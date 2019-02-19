@@ -12,9 +12,12 @@ permalink: /clients/
 
 <ul class="clients-list">
 
-  {% assign clients = site.clients | sort: 'project_date' %}
-  {% for client in clients reversed %}
+  {% assign clients = site.clients | sort: 'project_date' | reverse %}
+
+  {% for client in clients %}
+
     <li class="client{% cycle '', ' last' %} hvr-radial-in">
+
       <a href="{{ client.url | prepend: site.baseurl }}" title="{{ client.title }}" class="">
 
       {% if client.logo %}

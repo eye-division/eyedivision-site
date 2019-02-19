@@ -3,87 +3,55 @@ layout: default
 ---
 <div class="page">
 
-{% if page.screenshot %}
-  <figure class="centered">
-    {% include img.html src=page.screenshot width=1200 alt=page.description %}
-  </figure>
-{% endif %}
+  {% comment %}{% endcomment %}
+  {% if page.screenshot %}
+    <figure class="centered">
+      {% include imgpath.html src=page.screenshot width=1200 alt=page.description %}
+    </figure>
+  {% endif %}
 
-  <header class="post-header">
-    <h1 class="post-title">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-  </header>
+    <header class="post-header">
+      <h1 class="post-title">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+    </header>
 
-  <article class="post-content">
+    <article class="post-content">
 
-
-{% if page.testimonial_markdown %}
-	<blockquote>
-		<p>{{ page.testimonial_markdown | markdownify }}</p>
-		{% if page.testimonial_cite %}
-		<cite>{{ page.testimonial_cite }}</cite>
-		{% endif %}
-	</blockquote>
-{% endif %}
+      {% if page.testimonial_markdown %}
+      	<blockquote>
+      		<p>{{ page.testimonial_markdown | markdownify }}</p>
+      		{% if page.testimonial_cite %}
+      		<cite>{{ page.testimonial_cite }}</cite>
+      		{% endif %}
+      	</blockquote>
+      {% endif %}
 
 
 {{ content }}
+
 <div class="centered">
-{% if page.logo %}
 
-		<p>{% include img.html src=page.logo alt=page.description %}</p>
+  {% if page.logo %}
 
-{% endif %}
+  		<p>{% include imgpath.html src=page.logo alt=page.description %}</p>
+
+  {% endif %}
+
 	{% if page.start_date %}
+
 		<p><em>Original site build: {{ page.start_date | date: '%B %Y' }}</em></p>
-	{% endif %}
+
+  {% endif %}
 
 
 	{% if page.site %}
+
 		<p><a href="{{ page.site }}">Visit the {{ page.title }} website</a></p>
-	{% endif %}
+
+  {% endif %}
+
 </div>
 
-<!-- pagination - print out previous and next links for Pages / other Collections -->
-{% capture the_collection %}{{page.collection}}{% endcapture %}
-{% if page.collection %}
-    {% assign  document = site[the_collection] | sort: "project_date" | reverse %}
-{% endif %}
 
-{% for links in document %}
-    {% if links.title == page.title %}
-
-        {% unless forloop.first %}
-            {% assign prevurl = prev.url %}
-						{% assign prevlogo = prev.logo %}
-            {% assign prevtitle = prev.title %}
-        {% endunless %}
-
-        {% unless forloop.last %}
-            {% assign next = document[forloop.index] %}
-
-            {% assign nexturl = next.url %}
-						{% assign nextlogo = next.logo %}
-            {% assign nexttitle = next.title %}
-        {% endunless %}
-    {% endif %}
-
-    {% assign prev = links %}
-{% endfor %}
-
-<footer class="footer__centered">
-  {% if prevurl or nexturl %}
-	  {% if prevurl %}
-		  <a class="prev" href="{{prevurl}}">
-		    <svg class="icon"><use xlink:href="#icon-chevron_left" /></svg> {% include img.html src=prevlogo width=100 alt=prevtitle %}
-		  </a>
-	  {% endif %}
-	  {% if nexturl %}
-	  	<a class="next" href="{{nexturl}}">
-	      {% include img.html src=nextlogo width=100 alt=nexttitle %}  <svg class="icon"><use xlink:href="#icon-chevron_right" /></svg>
-	  	</a>
-	  {% endif %}
-	{% endif %}
-</footer>
 
   </article>
 </div>
