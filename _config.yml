@@ -32,7 +32,7 @@ permalink: pretty
 
 # Image CDN
 imagecdn:
-  staging: "http://ed-eyedivision-dev.imgix.net"
+  staging: "https://ed-eyedivision-dev.imgix.net"
   production: "https://ed-eyedivision.imgix.net"
 
 
