@@ -6,7 +6,7 @@ layout: default
   {% comment %}{% endcomment %}
   {% if page.screenshot %}
     <figure class="centered">
-      {% include imgpath.html src=page.screenshot width=1200 alt=page.description %}
+      {% include img.html src=page.screenshot width=1200 alt=page.description %}
     </figure>
   {% endif %}
 
@@ -32,7 +32,7 @@ layout: default
 
   {% if page.logo %}
 
-  		<p>{% include imgpath.html src=page.logo alt=page.description %}</p>
+  		<p>{% include img.html src=page.logo alt=page.description %}</p>
 
   {% endif %}
 
