@@ -2,8 +2,8 @@
 title:  Bucks Open Studios
 description: Bucks Open Studios
 project_date: 2017-07-01
-logo: /assets/images/logos/bucks-logo.png
-screenshot: /assets/images/screenshots/bucks-screenshot.jpg
+logo: "/assets/images/logos/bucks-logo.png"
+screenshot: "/assets/images/screenshots/bucks-screenshot.jpg"
 site: https://www.bucksopenstudios.org.uk/
 testimonial_markdown: 
 testimonial_cite: 
