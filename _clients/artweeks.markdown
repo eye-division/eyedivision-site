@@ -3,7 +3,7 @@ title:  Oxfordshire Artweeks
 description: Oxfordshire Artweeks
 project_date: 2017-07-01
 logo: /assets/images/logos/artweeks-logo.png
-screenshot: /assets/images/screenshots/artweeks2017-desktop.jpg
+screenshot: /assets/images/screenshots/artweeks-desktop.jpg
 site: https://www.artweeks.org
 testimonial_markdown: 
 testimonial_cite: 
