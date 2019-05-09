@@ -1,9 +1,10 @@
 body.front {
-    background-image: url('/assets/images/beach_s.jpg');
+    background-image: url('/assets/images/irises.jpg');
 
     @include media ($large-screen) {
-        background-image: url('/assets/images/beach.jpg');
+        background-image: url('/assets/images/irises.jpg');
         background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 
