@@ -2,8 +2,8 @@
 title:  "Coaching Knowledge Portal"
 description: "The Future of Coaching - Professionalising, collaborating, innovating"
 project_date: 2018-08-01
-logo: /assets/images/logos/brookes-logo.png
-screenshot: /assets/images/screenshots/brookes-cdprp-desktop.jpg
+logo: /assets/images/logos/ckp-logo.png
+screenshot: /assets/images/screenshots/ckp-desktop.jpg
 site: "https://www.coachingknowledgeportal.org/"
 testimonial_markdown: 
 testimonial_cite: 
