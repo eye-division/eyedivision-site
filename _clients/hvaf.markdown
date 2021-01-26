@@ -3,7 +3,7 @@ title:  Herts Visual Arts Festival
 description: Herts Visual Arts Festival
 project_date: 2019-01-01
 logo: "/assets/images/logos/hva-logo.png"
-screenshot: "/assets/images/screenshots/hva-desktop.jpg"
+screenshot: "/assets/images/screenshots/hvaf-desktop.jpg"
 site: https://www.hvaf.org.uk/
 testimonial_markdown: 
 testimonial_cite: 
