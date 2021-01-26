@@ -4,15 +4,17 @@ layout: default
 <div class="page">
 
   {% comment %}{% endcomment %}
-  {% if page.screenshot %}
+  <header class="post-header">
+      <h1 class="post-title">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+    </header>
+
+    {% if page.screenshot %}
     <figure class="centered">
       {% include img.html src=page.screenshot width=1200 alt=page.description %}
     </figure>
   {% endif %}
 
-    <header class="post-header">
-      <h1 class="post-title">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-    </header>
+    
 
     <article class="post-content">
 
