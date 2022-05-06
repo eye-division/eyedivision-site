@@ -2,7 +2,7 @@
 title:  Open Studios
 description: Open Studios
 project_date: 2022-05-01
-logo: "/assets/images/logos/open-studios-logo.png"
+logo: "/assets/images/logos/openstudios-logo.png"
 screenshot: "/assets/images/screenshots/wbnh-desktop.jpg"
 site: https://www.open-studios.org.uk/
 testimonial_markdown: 
