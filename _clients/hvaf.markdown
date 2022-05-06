@@ -1,13 +1,14 @@
 ---
 title:  Herts Visual Arts Festival
 description: Herts Visual Arts Festival
-project_date: 2019-01-01
+project_date: 2022-01-01
 logo: "/assets/images/logos/hva-logo.png"
 screenshot: "/assets/images/screenshots/hvaf-desktop.jpg"
 site: https://www.hvaf.org.uk/
 testimonial_markdown: 
 testimonial_cite: 
 start_date: 2019-01-01
+archive: false
 ---
 
 Every summer in September artists and designer makers open their doors to the public in the **Herts Visual Arts Festival** Open Studios.   
