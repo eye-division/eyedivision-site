@@ -2,7 +2,7 @@
 title:  Warwickshire Open Studios
 description: Warwickshire
 project_date: 2022-03-31
-logo: /assets/images/logos/warwickshire-open-studios-logo.png
+logo: /assets/images/logos/warwickshire-logo.png
 screenshot: /assets/images/screenshots/warwickshire-desktop.jpg
 site: https://www.warwickshireopenstudios.org/
 testimonial_markdown: 

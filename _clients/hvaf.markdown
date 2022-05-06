@@ -8,6 +8,7 @@ site: https://www.hvaf.org.uk/
 testimonial_markdown: 
 testimonial_cite: 
 start_date: 2019-01-01
+archive: false
 ---
 
 Every summer in September artists and designer makers open their doors to the public in the **Herts Visual Arts Festival** Open Studios.   
