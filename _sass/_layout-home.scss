@@ -1,8 +1,8 @@
 body.front {
-    background-image: url('/assets/images/irises.jpg');
+    background-image: url('/assets/images/silbury.jpg');
 
     @include media ($large-screen) {
-        background-image: url('/assets/images/irises.jpg');
+        background-image: url('/assets/images/silbury.jpg');
         background-size: cover;
         background-repeat: no-repeat;
     }
