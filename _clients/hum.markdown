@@ -4,7 +4,7 @@ description: Healthy Urban Mobility | Mobilidade Urbana Saudável
 project_date: 2016-10-01
 logo: /assets/images/logos/hum-logo.png
 screenshot: /assets/images/screenshots/hummus-desktop.jpg
-site: https://www.hum-mus.org
+site: 
 testimonial_markdown: 
 testimonial_cite: 
 ---

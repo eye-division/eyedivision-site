@@ -4,7 +4,7 @@ description: Brookes Faculty of Technology, Design and Environment
 project_date: 2017-03-01
 logo: /assets/images/logos/brookes-logo.png
 screenshot: /assets/images/screenshots/tde-screenshot.jpg
-site: https://www.brookes.ac.uk/tde/virtually-there/
+site: 
 testimonial_markdown: 
 testimonial_cite:  
 start_date: 2017-03-01

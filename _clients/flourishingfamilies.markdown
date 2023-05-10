@@ -4,7 +4,7 @@ description: "The Future of Coaching - Professionalising, collaborating, innovat
 project_date: 2019-02-01
 logo: /assets/images/logos/flourishing-families.png
 screenshot: /assets/images/screenshots/flourishing-families.jpg
-site: "https://www.flourishingfamiliesclinic.nhs.uk/"
+site: 
 testimonial_markdown: 
 testimonial_cite: 
 ---

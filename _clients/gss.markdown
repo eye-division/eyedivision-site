@@ -4,7 +4,7 @@ description: Global Science Spaces
 project_date: 2016-01-01
 logo: /assets/images/logos/gss-logo.png
 screenshot: /assets/images/screenshots/globalsciencespaces-desktop.jpg
-site: https://www.globalsciencespaces.org/
+site: 
 testimonial_markdown: Working with Eye Division has been a pleasure. They helped us to understand more fully what we were looking for from our website, and then to make it happen. Support has been seamless and effective throughout - I'm more than happy to recommend them in the most positive terms.
 testimonial_cite: David Valler, Global Science Spaces
 ---

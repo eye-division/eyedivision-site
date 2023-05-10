@@ -4,7 +4,7 @@ description: "International Centre for Coaching and Mentoring Studies"
 project_date: 2016-08-01
 logo: /assets/images/logos/brookes-logo.png
 screenshot: /assets/images/screenshots/brookes-iccams-desktop.jpg
-site: https://www.brookes.ac.uk/iccams/
+site: 
 testimonial_markdown: 
 testimonial_cite: 
 archive: true

@@ -4,7 +4,7 @@ description: Fete Day
 project_date: 2016-05-01
 logo: /assets/images/logos/feteday-logo.png
 screenshot: /assets/images/screenshots/feteday-desktop.jpg
-site: http://www.feteday.co.uk/
+site: 
 testimonial_markdown: 
 testimonial_cite: 
 ---

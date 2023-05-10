@@ -4,7 +4,7 @@ description: Fit to Study
 project_date: 2017-05-01
 logo: /assets/images/logos/fittostudy-logo.png
 screenshot: /assets/images/screenshots/fittostudy-screenshot.jpg
-site: https://www.fit-to-study.org/
+site: 
 testimonial_markdown: 
 testimonial_cite: 
 start_date: 2017-05-01

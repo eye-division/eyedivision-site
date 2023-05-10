@@ -4,7 +4,7 @@ description: The Centre for Diversity Policy Research and Practice
 project_date: 2016-08-01
 logo: /assets/images/logos/brookes-logo.png
 screenshot: /assets/images/screenshots/brookes-cdprp-desktop.jpg
-site: https://www.brookes.ac.uk/the-centre-for-diversity-policy-research-and-practice/
+site: 
 testimonial_markdown: 
 testimonial_cite: 
 ---
