@@ -4,7 +4,7 @@ description: Micro sites
 project_date: 2017-02-01
 logo: /assets/images/logos/brookes-logo.png
 screenshot: /assets/images/screenshots/hls-screenshot.jpg
-site: https://www.brookes.ac.uk/nursing/nursing-join-us/
+site: 
 testimonial_markdown: Alun delivered 12 mini websites for us from brief to go-live in an incredibly short period of time. He was entirely responsive to our demands and worked precisely to brief. He interpreted our vision perfectly whilst working within our corporate brand guidelines. 
 testimonial_cite: Gemma Woods, Marketing Manager 
 start_date: 2017-02-01

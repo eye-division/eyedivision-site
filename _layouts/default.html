@@ -6,6 +6,11 @@
   {% assign section = page.url | split: '/' %}
 
   <body class="{% if section[1] %}{{section[1]}}{% else %}front{% endif %}">
+    {% if site.ga_tag_id and jekyll.environment == 'production' %}
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.ga_tag_id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    {% endif %}
 
     {% include svg/symbol-defs.svg %}
     {% include header.html %}

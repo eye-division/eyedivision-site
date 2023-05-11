@@ -10,7 +10,7 @@ testimonial_cite:
 start_date: 2016-12-01
 ---
 
-**Bucks Art Weeks 2022** will be taking place throughout the county from 11–26 June 2022.
+**Bucks Art Weeks 2023** will be taking place throughout the county from 10–25 June 2023.
 
 We re-built their website using Drupal and our own Open Studios framework to allow staff and artists to manage their listings and images. We took the opportunity to integrate their new print design into the website, and make it responsive, highlighting some of the stunning images produced by the artists.  
 

@@ -57,7 +57,7 @@ defaults:
 # disqus_shortname:
 
 # Google analytics
-ga_tracking_id: UA-964773-1
+ga_tag_id: GTM-T7CJJDX
 
 #Google Recaptcha for contact form
 recaptcha_site_key: 6LdQIxUUAAAAAJAiUwXz-IFIZldyn-TEB0dLU0h6
@@ -83,31 +83,31 @@ recaptcha_site_key: 6LdQIxUUAAAAAJAiUwXz-IFIZldyn-TEB0dLU0h6
 social:
   - name: Twitter
     icon: icon-twitter_sign
-    username: #EyeDivision
-    url: #https://twitter.com/EyeDivision
-    desc: Follow us on Twitter
+    username: 
+    url: 
+    desc: 
     share: true
 
   - name: Facebook
     icon: icon-facebook_sign
-    username: #eyedivision
-    url: #https://www.facebook.com/eyedivision
-    desc: Like us on Facebook
+    username: 
+    url: 
+    desc: 
     share: true
 
   - name: LinkedIn
     icon: icon-linkedin-alt
-    username: #eyedivision
-    url: #https://www.linkedin.com/company/eye-division-ltd
-    desc: Connect with us on LinkedIn
+    username: 
+    url: 
+    desc: 
     share: true
 
 
   - name: Instagram
     icon: icon-instagram
-    username: eyedivision
-    url: https://instagram.com/eyedivision
-    desc: Follow us on Instagram
+    username: 
+    url: 
+    desc: 
     share: false
 
 

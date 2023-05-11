@@ -4,7 +4,7 @@ description: Walk Japan
 project_date: 2016-08-01
 logo: /assets/images/logos/walkjapan-logo.png
 screenshot: /assets/images/screenshots/nakasendoway-desktop.jpg
-site: http://www.nakasendoway.com/
+site: 
 testimonial_markdown: Alun and Neil have been a key team in developing, managing and maintaining resource websites for the Walk Japan brand. Eye Division team are not only pleasurable team-mates to work with, they are technically proficient, friendly, punctual and responsibl, qualities which are often hard to find. Whenever any issues arose, they were always on hand to rescue us very quickly. I am glad that we could build trust, and hope to continue our great working relationship with the team!
 testimonial_cite: Yohei Totsuka, Walk Japan
 ---

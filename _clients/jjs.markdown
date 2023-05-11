@@ -4,7 +4,7 @@ description: Journal of Jewish Studies
 project_date: 2015-12-01
 logo: /assets/images/logos/JJS-logo.png
 screenshot: /assets/images/screenshots/jjs-desktop.jpg
-site: http://www.jjs-online.net/
+site: 
 testimonial_markdown:  The Journal of Jewish Studies is very grateful to Eye Division for their excellent and efficient contribution in constructing the very complex website of their archives.
 testimonial_cite: The Editors
 ---
