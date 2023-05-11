@@ -57,7 +57,7 @@ defaults:
 # disqus_shortname:
 
 # Google analytics
-ga_tracking_id: UA-964773-1
+ga_tag_id: GTM-T7CJJDX
 
 #Google Recaptcha for contact form
 recaptcha_site_key: 6LdQIxUUAAAAAJAiUwXz-IFIZldyn-TEB0dLU0h6
