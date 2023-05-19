@@ -1,50 +1,60 @@
-body.front {
-    background-image: url('/assets/images/silbury.jpg');
-
-    @include media ($large-screen) {
-        background-image: url('/assets/images/silbury.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-}
-
 //@include parallax-init; // https://codepen.io/scottkellum/pen/bHEcA/
 
 .front {
 
     .page-content {
-
+        background-image: url('/assets/images/wild_garlic_small.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        
         margin-top: 0;
+        @include media($medium-screen) {
+            background-position: center -20%;
+        }
         @include media ($large-screen) {
-            margin-top: 0;
+            background-position: inherit;
+            background-image: url('/assets/images/wild_garlic_1600.jpg');
+            background-repeat: no-repeat;
         }
     }
 
     .hero {
         text-align: center;
         //@include parallax(-.4);
-        margin: 6em 0 0;
-        padding: 2em;
-        background: rgba(0,0,0,0.5);
+        margin: 0;
+        padding: 1em;
+        
         color: $eyedivision-light;
+        @include media($medium-screen) {
+            margin: 1em;
+            padding: 2em;
+        }
+        @include media ($large-screen) {
+            
+            margin: 6em;
+        }
     }
     .title {
-        font-size: modular-scale(5);
+        font-size: modular-scale(4);
         @include media ($large-screen) {
             font-size: modular-scale(6);
         }
     }
     .hero__strapline {
-        font-size: modular-scale(3);
+        
+        font-size: modular-scale(2);
+        @include media($medium-screen) {
+            background: rgba(0,0,0,0.35);
+        }
         @include media ($large-screen) {
-            font-size: modular-scale(4);
+            font-size: modular-scale(3);
         }
     }
     .clients-front {
         padding: 20px;
         background: url(/assets/images/eyebg.png);
         //@include parallax(-.2);
-        margin-top: 4em;
+
         @include media ($large-screen) {
             margin-top: 6em;
         }
