@@ -1,37 +1,27 @@
 //@include parallax-init; // https://codepen.io/scottkellum/pen/bHEcA/
 
 .front {
-
-    .page-content {
-        background-image: url('/assets/images/wild_garlic_small.jpg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        
-        margin-top: 0;
-        @include media($medium-screen) {
-            background-position: center -20%;
-        }
-        @include media ($large-screen) {
-            background-position: inherit;
-            background-image: url('/assets/images/wild_garlic_1600.jpg');
-            background-repeat: no-repeat;
-        }
-    }
+    background: url(/assets/images/eyebg.png);
 
     .hero {
         text-align: center;
         //@include parallax(-.4);
         margin: 0;
         padding: 1em;
-        
+        background-image: url('/assets/images/wild_garlic_small.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 0.2s ease-in-out;
         color: $eyedivision-light;
         @include media($medium-screen) {
-            margin: 1em;
-            padding: 2em;
+            margin: 0;
+            padding: 2em 2em 4em;
+            background-image: url('/assets/images/wild_garlic_1600.jpg');
         }
         @include media ($large-screen) {
             
-            margin: 6em;
+            margin: 1em;
         }
     }
     .title {
@@ -52,13 +42,12 @@
     }
     .clients-front {
         padding: 20px;
-        background: url(/assets/images/eyebg.png);
-        //@include parallax(-.2);
+        
 
         @include media ($large-screen) {
-            margin-top: 6em;
+            margin-top: 2em;
         }
-        margin-bottom: 6em;
+        margin-bottom: 3em;
         color: $eyedivision-dark;
     }
     .clients-front-footer {
@@ -85,11 +74,16 @@
         //border-radius: $base-border-radius;
         //box-shadow: inset 0 0 1px lighten($brand-primary, 30%), 0 1px 2px $brand-primary;
         display: block;
-        flex: 4 4 13em;
-        margin: 0.4em;
-        padding: 1em;
+        flex: 1 45%;
+        margin: 0;
+        padding: 0;
         text-decoration: none;
         transition: all 0.2s ease-in-out;
+        @media screen and (min-width: 500px) {
+            flex: 4 4 13em;
+            margin: 0.4em;
+            padding: 1em;
+        }
       }
     }
     .clients-list img {
