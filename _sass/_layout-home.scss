@@ -7,21 +7,21 @@
         text-align: center;
         //@include parallax(-.4);
         margin: 0;
-        padding: 1em;
+        padding: 2em;
         background-image: url('/assets/images/wild_garlic_small.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         transition: 0.2s ease-in-out;
         color: $eyedivision-light;
+        
         @include media($medium-screen) {
             margin: 0;
             padding: 2em 2em 4em;
-            background-image: url('/assets/images/wild_garlic_1600.jpg');
+            background-image: url('/assets/images/wild_garlic_1200.jpg');
         }
         @include media ($large-screen) {
-            
-            margin: 1em;
+            padding: 10em 2em;
         }
     }
     .title {
