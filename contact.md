@@ -6,7 +6,7 @@ permalink: /contact/
 
 <section class="container content-section contact-section">
 
-    <p>Take the first step by sending an email using the form below, or call us on <a href="tel:+441225300234">01225 300234</a> today.</p>
+    <p>Drop us a line using the form below, or call <a href="tel:+441225300234">01225 300234</a>.</p>
 
     <form action="/thanks/" method="post">
 
