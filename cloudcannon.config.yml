@@ -1,0 +1,95 @@
+paths:
+  uploads: uploads
+  dam_uploads: ''
+  static: ''
+  dam_static: ''
+  collections: ''
+  data: _data
+  layouts: _layouts
+  includes: _includes
+collections_config:
+  data:
+    path: _data
+    output: false
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  posts:
+    path: _posts
+    output: true
+    icon: notes
+    create:
+      path: >-
+        [relative_base_path]/{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  pages:
+    path: ''
+    output: true
+    filter: strict
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  clients:
+    path: _clients
+    output: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+_inputs:
+  categories:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+  tags:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+_select_data:
+  imagecdn:
+    staging: https://ed-eyedivision-dev.imgix.net
+    production: https://ed-eyedivision.imgix.net
+  social:
+    - name: Twitter
+      icon: icon-twitter_sign
+      username:
+      url:
+      desc:
+      share: true
+    - name: Facebook
+      icon: icon-facebook_sign
+      username:
+      url:
+      desc:
+      share: true
+    - name: LinkedIn
+      icon: icon-linkedin-alt
+      username:
+      url:
+      desc:
+      share: true
+    - name: Instagram
+      icon: icon-instagram
+      username:
+      url:
+      desc:
+      share: false
+  protocols:
+    fb_image: assets/images/eyedivision-pool.jpg
+    fb_image_width: 2048
+    fb_image_height: 1156
+    fb_image_type: image/jpeg
+    twitter_image: assets/eyedivision-logo.png
+  tag_data: []
+_structures: {}
+_editables: {}
+data_config: {}
+timezone: Europe/London
