@@ -47,14 +47,14 @@ p {
 }
 
 a {
-  color: lighten($action-color,10%);
-  text-decoration: none;
+  color: darken($action-color,10%);
+  text-decoration: underline;
   // transition: color 0.1s linear;
 
   &:active,
   &:focus,
   &:hover {
-    color: $action-color;
+    color: $black;
     text-decoration: underline;
   }
 
@@ -78,6 +78,3 @@ picture {
   max-width: 100%;
 }
 
-code {
-
-}
