@@ -4,7 +4,7 @@ description: Bucks Art Weeks
 project_date: 2024-01-01
 logo: "/assets/images/logos/bucks-logo.png"
 screenshot: "/assets/images/screenshots/bucks-desktop.jpg"
-site: https://www.bucksartweeks.org.uk/
+site: "https://www.bucksartweeks.org.uk/"
 testimonial_markdown:
 testimonial_cite:
 start_date: 2016-12-01

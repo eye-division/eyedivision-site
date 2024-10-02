@@ -3,10 +3,10 @@ plugins:
  # - jekyll-archives # Sorry, not GitHub pages friendly!
  # - jekyll-assets
  # - autoprefixer-rails
-   - jekyll-seo-tag
-   - jekyll-sitemap
-   - jekyll/tagging
-   - jekyll-tagging-related_posts
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll/tagging
+  - jekyll-tagging-related_posts
 
 # Site settings
 title: Eye Division
@@ -38,20 +38,20 @@ imagecdn:
 
 # Collections
 collections:
-    clients:
-        output: true
-        permalink: /clients/:path/
-
+  clients:
+    output: true
+    permalink: /clients/:path/
+    sort_by: project_date
 
 # Defaults Example
 defaults:
-    -
-        scope:
-            path: ""
-            type: "clients"
-        values:
-            layout: "client"
-            logo: /assets/eyedivision-logo.png
+  -
+    scope:
+      path: ""
+      type: "clients"
+    values:
+      layout: "client"
+      logo: /assets/eyedivision-logo.png
 
 # Disqus comments
 # disqus_shortname:
@@ -83,31 +83,31 @@ recaptcha_site_key: 6LdQIxUUAAAAAJAiUwXz-IFIZldyn-TEB0dLU0h6
 social:
   - name: Twitter
     icon: icon-twitter_sign
-    username: 
-    url: 
-    desc: 
+    username:
+    url:
+    desc:
     share: true
 
   - name: Facebook
     icon: icon-facebook_sign
-    username: 
-    url: 
-    desc: 
+    username:
+    url:
+    desc:
     share: true
 
   - name: LinkedIn
     icon: icon-linkedin-alt
-    username: 
-    url: 
-    desc: 
+    username:
+    url:
+    desc:
     share: true
 
 
   - name: Instagram
     icon: icon-instagram
-    username: 
-    url: 
-    desc: 
+    username:
+    url:
+    desc:
     share: false
 
 
