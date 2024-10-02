@@ -12,7 +12,7 @@ permalink: /clients/
 
 <ul class="clients-list">
 
-  {% assign clients = site.clients | sort: 'project_date' | reverse %}
+  {% assign clients = site.clients | sort: "project_date" | reverse %}
 
   {% for client in clients %}
 
