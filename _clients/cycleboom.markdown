@@ -10,11 +10,9 @@ testimonial_cite:
 ---
 **cycle BOOM** was a study co-ordinated from Oxford Brookes University to understand cycling among the older population and how this affects independence, health and wellbeing.<br>We worked with designers [Carline Creative](http://www.carlinecreative.co.uk)who produced the branding, and we built it into a WordPress site.
 
-#### Features include:
+#### Features included:
 
-<ul>
-<li>Full WordPress theme customisation</li>
-<li>Ongoing WordPress security and plugin support</li>
-<li>Moderated staff submission of content for the news blog or main site</li>
-<li>Integration with MailChimp for newsletter management</li>
-</ul>
+* Full WordPress theme customisation
+* Ongoing WordPress security and plugin support
+* Moderated staff submission of content for the news blog or main site
+* Integration with MailChimp for newsletter management
