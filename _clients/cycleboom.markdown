@@ -12,8 +12,9 @@ testimonial_cite:
 
 #### Features include:
 
-* {: .list-group-item} Full WordPress theme customisation
-* {: .list-group-item} Ongoing WordPress security and plugin support
-* {: .list-group-item} Moderated staff submission of content for the news blog or main site
-* {: .list-group-item} Integration with MailChimp for newsletter management
-{: .list-group}
+<ul>
+<li>Full WordPress theme customisation</li>
+<li>Ongoing WordPress security and plugin support</li>
+<li>Moderated staff submission of content for the news blog or main site</li>
+<li>Integration with MailChimp for newsletter management</li>
+</ul>
